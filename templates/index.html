@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        GlaucoVision Eye Care
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- ======================================================
+     NAVIGATION
+====================================================== -->
+
+<header class="header">
+
+    <div class="container navbar">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                👁
+            </div>
+
+            <div>
+                <h2>GlaucoVision</h2>
+                <span>AI Eye Care</span>
+            </div>
+
+        </div>
+
+
+        <nav>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#screening">
+                Screening
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#technology">
+                Technology
+            </a>
+
+        </nav>
+
+
+        <a
+            href="#screening"
+            class="nav-button"
+        >
+            Start Screening
+        </a>
+
+    </div>
+
+</header>
+
+
+
+<!-- ======================================================
+     HERO / CLINIC FRONT PAGE
+====================================================== -->
+
+<section
+    class="hero"
+    id="home"
+>
+
+    <div class="container hero-grid">
+
+
+        <!-- LEFT -->
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+
+                <span></span>
+
+                AI-POWERED EYE SCREENING
+
+            </div>
+
+
+            <h1>
+
+                Protect Your Vision.
+
+                <span>
+                    Detect Glaucoma Early.
+                </span>
+
+            </h1>
+
+
+            <p>
+
+                An intelligent retinal screening system
+                using deep learning to analyze fundus
+                images and assist in early glaucoma
+                screening.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#screening"
+                    class="primary-button"
+                >
+                    Start Eye Screening
+                    <span>→</span>
+                </a>
+
+
+                <a
+                    href="#about"
+                    class="secondary-button"
+                >
+                    Learn More
+                </a>
+
+            </div>
+
+
+            <div class="hero-features">
+
+                <div>
+
+                    <strong>
+                        AI
+                    </strong>
+
+                    <span>
+                        Deep Learning
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        224×224
+                    </strong>
+
+                    <span>
+                        Fundus Analysis
+                    </span>
+
+                </div>
+
+
+                <div>
+
+                    <strong>
+                        Fast
+                    </strong>
+
+                    <span>
+                        Screening Result
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- RIGHT -->
+
+        <div class="hero-visual">
+
+            <div class="visual-background">
+
+                <div class="eye-design">
+
+                    <div class="eye-white">
+
+                        <div class="iris">
+
+                            <div class="pupil">
+
+                                <div class="scan-dot">
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card card-one">
+
+                    <div class="floating-icon">
+                        ✓
+                    </div>
+
+                    <div>
+                        <span>AI SYSTEM</span>
+                        <strong>Model Ready</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="floating-card card-two">
+
+                    <div class="floating-icon blue">
+                        AI
+                    </div>
+
+                    <div>
+                        <span>ANALYSIS</span>
+                        <strong>Fundus Screening</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="scan-line">
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================================
+     INFO BAR
+====================================================== -->
+
+<section class="trust-bar">
+
+    <div class="container trust-grid">
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                01
+            </div>
+
+            <div>
+                <strong>Upload</strong>
+                <span>Fundus Image</span>
+            </div>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                02
+            </div>
+
+            <div>
+                <strong>Analyze</strong>
+                <span>Using Deep Learning</span>
+            </div>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                03
+            </div>
+
+            <div>
+                <strong>Result</strong>
+                <span>Glaucoma / Normal</span>
+            </div>
+
+        </div>
+
+
+        <div class="trust-item">
+
+            <div class="trust-icon">
+                04
+            </div>
+
+            <div>
+                <strong>Confidence</strong>
+                <span>AI Prediction Score</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================================
+     SCREENING
+====================================================== -->
+
+<section
+    class="screening"
+    id="screening"
+>
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>
+                AI SCREENING
+            </span>
+
+            <h2>
+                Glaucoma Fundus Analysis
+            </h2>
+
+            <p>
+                Upload a retinal fundus image to begin
+                AI-assisted screening.
+            </p>
+
+        </div>
+
+
+
+        <div class="screening-grid">
+
+
+            <!-- UPLOAD SIDE -->
+
+            <div class="screen-card">
+
+
+                <div class="card-header">
+
+                    <div>
+
+                        <span class="step-label">
+                            STEP 01
+                        </span>
+
+                        <h3>
+                            Upload Fundus Image
+                        </h3>
+
+                    </div>
+
+
+                    <div class="header-number">
+                        01
+                    </div>
+
+                </div>
+
+
+
+                <div
+                    class="upload-area"
+                    id="dropArea"
+                    onclick="document.getElementById('imageInput').click()"
+                >
+
+                    <input
+                        type="file"
+                        id="imageInput"
+                        accept=".jpg,.jpeg,.png,.bmp,.tif,.tiff"
+                        hidden
+                    >
+
+
+                    <div
+                        class="upload-content"
+                        id="uploadContent"
+                    >
+
+                        <div class="upload-icon">
+                            ↑
+                        </div>
+
+                        <h3>
+                            Drop your fundus image here
+                        </h3>
+
+                        <p>
+                            or click to browse from your computer
+                        </p>
+
+                        <button type="button">
+                            Choose Image
+                        </button>
+
+                        <small>
+                            JPG • JPEG • PNG • BMP • TIFF
+                        </small>
+
+                    </div>
+
+
+                    <img
+                        id="preview"
+                        class="image-preview"
+                        alt="Fundus Preview"
+                    >
+
+                </div>
+
+
+
+                <div
+                    class="file-details"
+                    id="fileDetails"
+                >
+
+                    <span>
+                        No image selected
+                    </span>
+
+                </div>
+
+
+
+                <button
+                    class="analyze-button"
+                    id="analyzeButton"
+                    onclick="analyzeImage()"
+                    disabled
+                >
+
+                    <span id="buttonText">
+                        Analyze Fundus Image
+                    </span>
+
+                    <span>
+                        →
+                    </span>
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- RESULT SIDE -->
+
+            <div class="screen-card result-card">
+
+
+                <div class="card-header">
+
+                    <div>
+
+                        <span class="step-label">
+                            STEP 02
+                        </span>
+
+                        <h3>
+                            Screening Result
+                        </h3>
+
+                    </div>
+
+
+                    <div class="header-number">
+                        02
+                    </div>
+
+                </div>
+
+
+
+                <!-- WAITING -->
+
+                <div
+                    class="waiting"
+                    id="waiting"
+                >
+
+                    <div class="waiting-eye">
+
+                        <div></div>
+
+                    </div>
+
+
+                    <h3>
+                        Ready for Analysis
+                    </h3>
+
+
+                    <p>
+
+                        Your AI screening result will
+                        appear here after uploading and
+                        analyzing a fundus image.
+
+                    </p>
+
+                </div>
+
+
+
+                <!-- RESULT -->
+
+                <div
+                    class="prediction"
+                    id="prediction"
+                >
+
+
+                    <div
+                        class="prediction-box"
+                        id="predictionBox"
+                    >
+
+
+                        <div class="prediction-top">
+
+                            <span>
+                                AI SCREENING RESULT
+                            </span>
+
+                            <div
+                                class="prediction-icon"
+                                id="predictionIcon"
+                            >
+                                ✓
+                            </div>
+
+                        </div>
+
+
+                        <h2 id="resultText">
+                            Normal
+                        </h2>
+
+
+                        <p id="resultDescription">
+                        </p>
+
+
+
+                        <div class="confidence">
+
+
+                            <div class="confidence-heading">
+
+                                <span>
+                                    Model Confidence
+                                </span>
+
+                                <strong
+                                    id="confidenceText"
+                                >
+                                    0%
+                                </strong>
+
+                            </div>
+
+
+                            <div class="confidence-track">
+
+                                <div
+                                    class="confidence-fill"
+                                    id="confidenceFill"
+                                >
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="analysis-info">
+
+
+                        <div>
+
+                            <span>
+                                Classification
+                            </span>
+
+                            <strong
+                                id="classification"
+                            >
+                                -
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Model
+                            </span>
+
+                            <strong>
+                                EfficientNet-B0
+                            </strong>
+
+                        </div>
+
+
+                        <div>
+
+                            <span>
+                                Input
+                            </span>
+
+                            <strong>
+                                224 × 224
+                            </strong>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <div class="medical-warning">
+
+                        <strong>
+                            Important
+                        </strong>
+
+                        <p>
+
+                            This system is intended for
+                            academic and research screening
+                            purposes only. The prediction
+                            should not be considered a
+                            medical diagnosis.
+
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+
+                <div
+                    class="error-message"
+                    id="errorMessage"
+                >
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================================
+     ABOUT
+====================================================== -->
+
+<section
+    class="about"
+    id="about"
+>
+
+    <div class="container about-grid">
+
+
+        <div class="about-left">
+
+            <span class="section-small">
+                ABOUT GLAUCOVISION
+            </span>
+
+            <h2>
+                Intelligent technology
+                for retinal screening.
+            </h2>
+
+        </div>
+
+
+        <div class="about-right">
+
+            <p>
+
+                GlaucoVision is an academic deep-learning
+                system designed to analyze retinal fundus
+                photographs and classify images into
+                glaucoma or normal categories.
+
+            </p>
+
+            <p>
+
+                The project demonstrates how artificial
+                intelligence and medical image analysis
+                can be combined to assist screening
+                workflows.
+
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================================
+     TECHNOLOGY
+====================================================== -->
+
+<section
+    class="technology"
+    id="technology"
+>
+
+    <div class="container">
+
+
+        <div class="section-title">
+
+            <span>
+                TECHNOLOGY
+            </span>
+
+            <h2>
+                Built with Deep Learning
+            </h2>
+
+        </div>
+
+
+
+        <div class="technology-grid">
+
+
+            <div class="technology-card">
+
+                <span>01</span>
+
+                <h3>
+                    EfficientNet-B0
+                </h3>
+
+                <p>
+                    Deep-learning architecture used for
+                    retinal image classification.
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <span>02</span>
+
+                <h3>
+                    PyTorch
+                </h3>
+
+                <p>
+                    Machine-learning framework used for
+                    model training and inference.
+                </p>
+
+            </div>
+
+
+            <div class="technology-card">
+
+                <span>03</span>
+
+                <h3>
+                    Fundus Imaging
+                </h3>
+
+                <p>
+                    Retinal fundus photographs are used
+                    as input for glaucoma screening.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- ======================================================
+     FOOTER
+====================================================== -->
+
+<footer>
+
+    <div class="container footer-content">
+
+
+        <div class="logo footer-logo">
+
+            <div class="logo-icon">
+                👁
+            </div>
+
+            <div>
+                <h2>GlaucoVision</h2>
+                <span>AI Eye Care</span>
+            </div>
+
+        </div>
+
+
+        <p>
+            Early Detection of Glaucoma Using Deep Learning
+        </p>
+
+
+        <span>
+            Academic Project
+        </span>
+
+
+    </div>
+
+</footer>
+
+
+
+<!-- ======================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script>
+
+
+const imageInput =
+    document.getElementById("imageInput");
+
+const preview =
+    document.getElementById("preview");
+
+const uploadContent =
+    document.getElementById("uploadContent");
+
+const analyzeButton =
+    document.getElementById("analyzeButton");
+
+const fileDetails =
+    document.getElementById("fileDetails");
+
+const dropArea =
+    document.getElementById("dropArea");
+
+
+
+/* ======================================================
+   IMAGE SELECT
+====================================================== */
+
+imageInput.addEventListener(
+    "change",
+    function () {
+
+        if (this.files.length > 0) {
+
+            displayImage(
+                this.files[0]
+            );
+
+        }
+
+    }
+);
+
+
+
+function displayImage(file) {
+
+
+    if (!file.type.startsWith("image/")) {
+
+        showError(
+            "Please select a valid image."
+        );
+
+        return;
+
+    }
+
+
+    const reader =
+        new FileReader();
+
+
+    reader.onload =
+        function (event) {
+
+            preview.src =
+                event.target.result;
+
+            preview.style.display =
+                "block";
+
+            uploadContent.style.display =
+                "none";
+
+        };
+
+
+    reader.readAsDataURL(file);
+
+
+    fileDetails.innerHTML =
+
+        "<strong>" +
+        file.name +
+        "</strong>" +
+
+        "<span>" +
+        formatSize(file.size) +
+        "</span>";
+
+
+    analyzeButton.disabled =
+        false;
+
+
+    resetResult();
+
+}
+
+
+
+/* ======================================================
+   DRAG AND DROP
+====================================================== */
+
+dropArea.addEventListener(
+    "dragover",
+    function (event) {
+
+        event.preventDefault();
+
+        dropArea.classList.add(
+            "dragging"
+        );
+
+    }
+);
+
+
+
+dropArea.addEventListener(
+    "dragleave",
+    function () {
+
+        dropArea.classList.remove(
+            "dragging"
+        );
+
+    }
+);
+
+
+
+dropArea.addEventListener(
+    "drop",
+    function (event) {
+
+        event.preventDefault();
+
+        dropArea.classList.remove(
+            "dragging"
+        );
+
+
+        const file =
+            event.dataTransfer.files[0];
+
+
+        if (!file) {
+            return;
+        }
+
+
+        const transfer =
+            new DataTransfer();
+
+
+        transfer.items.add(
+            file
+        );
+
+
+        imageInput.files =
+            transfer.files;
+
+
+        displayImage(
+            file
+        );
+
+    }
+);
+
+
+
+/* ======================================================
+   ANALYZE
+====================================================== */
+
+async function analyzeImage() {
+
+
+    const file =
+        imageInput.files[0];
+
+
+    if (!file) {
+
+        showError(
+            "Please select a fundus image."
+        );
+
+        return;
+
+    }
+
+
+    analyzeButton.disabled =
+        true;
+
+
+    document.getElementById(
+        "buttonText"
+    ).innerText =
+        "Analyzing Image...";
+
+
+    hideError();
+
+
+    const formData =
+        new FormData();
+
+
+    formData.append(
+        "image",
+        file
+    );
+
+
+    try {
+
+
+        const response =
+            await fetch(
+                "/predict",
+                {
+                    method: "POST",
+                    body: formData
+                }
+            );
+
+
+        const data =
+            await response.json();
+
+
+        if (!response.ok) {
+
+            throw new Error(
+                data.error ||
+                "Prediction failed."
+            );
+
+        }
+
+
+        showPrediction(
+            data.result,
+            data.confidence
+        );
+
+
+    }
+
+    catch (error) {
+
+
+        showError(
+            error.message
+        );
+
+
+    }
+
+    finally {
+
+
+        analyzeButton.disabled =
+            false;
+
+
+        document.getElementById(
+            "buttonText"
+        ).innerText =
+            "Analyze Fundus Image";
+
+
+    }
+
+}
+
+
+
+/* ======================================================
+   SHOW RESULT
+====================================================== */
+
+function showPrediction(
+    result,
+    confidence
+) {
+
+
+    document.getElementById(
+        "waiting"
+    ).style.display =
+        "none";
+
+
+    document.getElementById(
+        "prediction"
+    ).style.display =
+        "block";
+
+
+    const box =
+        document.getElementById(
+            "predictionBox"
+        );
+
+
+    const icon =
+        document.getElementById(
+            "predictionIcon"
+        );
+
+
+    document.getElementById(
+        "resultText"
+    ).innerText =
+        result;
+
+
+    document.getElementById(
+        "classification"
+    ).innerText =
+        result;
+
+
+    document.getElementById(
+        "confidenceText"
+    ).innerText =
+        confidence + "%";
+
+
+    setTimeout(
+        function () {
+
+            document.getElementById(
+                "confidenceFill"
+            ).style.width =
+                confidence + "%";
+
+        },
+        100
+    );
+
+
+    if (
+        result.toLowerCase()
+        === "glaucoma"
+    ) {
+
+
+        box.className =
+            "prediction-box glaucoma";
+
+
+        icon.innerText =
+            "!";
+
+
+        document.getElementById(
+            "resultDescription"
+        ).innerText =
+
+            "The model classified this fundus image as belonging to the glaucoma class.";
+
+
+    }
+
+    else {
+
+
+        box.className =
+            "prediction-box normal";
+
+
+        icon.innerText =
+            "✓";
+
+
+        document.getElementById(
+            "resultDescription"
+        ).innerText =
+
+            "The model classified this fundus image as belonging to the normal class.";
+
+
+    }
+
+}
+
+
+
+/* ======================================================
+   RESET
+====================================================== */
+
+function resetResult() {
+
+
+    document.getElementById(
+        "waiting"
+    ).style.display =
+        "flex";
+
+
+    document.getElementById(
+        "prediction"
+    ).style.display =
+        "none";
+
+
+    document.getElementById(
+        "confidenceFill"
+    ).style.width =
+        "0%";
+
+
+    hideError();
+
+}
+
+
+
+/* ======================================================
+   ERROR
+====================================================== */
+
+function showError(message) {
+
+
+    const error =
+        document.getElementById(
+            "errorMessage"
+        );
+
+
+    error.innerText =
+        message;
+
+
+    error.style.display =
+        "block";
+
+}
+
+
+function hideError() {
+
+
+    document.getElementById(
+        "errorMessage"
+    ).style.display =
+        "none";
+
+}
+
+
+
+/* ======================================================
+   FILE SIZE
+====================================================== */
+
+function formatSize(bytes) {
+
+
+    if (bytes < 1024) {
+
+        return bytes + " B";
+
+    }
+
+
+    if (bytes < 1048576) {
+
+        return (
+            bytes / 1024
+        ).toFixed(1) + " KB";
+
+    }
+
+
+    return (
+        bytes / 1048576
+    ).toFixed(1) + " MB";
+
+}
+
+
+</script>
+
+
+</body>
+</html>
